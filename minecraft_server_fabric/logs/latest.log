@@ -1,5 +1,5 @@
-[18:53:39] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.16.10
-[18:53:39] [main/INFO]: Loading 42 mods:
+[19:15:56] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.16.10
+[19:15:56] [main/INFO]: Loading 42 mods:
 	- collective-fabric 5.50
 	   \-- fiber 0.23.0-2
 	- fabric 0.42.0+1.16
@@ -53,93 +53,52 @@
 	- minecraft 1.16.5
 	- treeharvester-fabric 5.9
 	- xaerominimap 25.0.0
-[18:53:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mc/minecraft_server_fabric/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:53:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:53:44] [main/INFO]: [STDOUT]: Loading Collective (Fabric) version 5.50.
-[18:53:45] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[18:53:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:53:46] [main/INFO]: Found new data pack Fabric Mods, loading it automatically
-[18:53:46] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:53:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:53:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:53:46] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:53:46] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:53:46] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
-[18:53:47] [Worker-Main-5/INFO]: Loaded 7 recipes
-[18:53:47] [Worker-Main-5/INFO]: Loaded 927 advancements
-[18:53:49] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.505 ms
-[18:53:49] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[18:53:49] [Server thread/INFO]: Loading properties
-[18:53:49] [Server thread/INFO]: Default game type: SURVIVAL
-[18:53:49] [Server thread/INFO]: Generating keypair
-[18:53:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:53:49] [Server thread/INFO]: Using epoll channel type
-[18:53:50] [Server thread/INFO]: Preparing level "world"
-[18:53:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:53:51] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:51] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:51] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:52] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:52] [Server thread/INFO]: Preparing spawn area: 72%
-[18:53:52] [Server thread/INFO]: Time elapsed: 2405 ms
-[18:53:52] [Server thread/INFO]: Done (2.580s)! For help, type "help"
-[18:53:52] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[18:53:57] [User Authenticator #1/INFO]: UUID of player Larintb868 is 9815b6cc-9a42-4d3a-a564-2c7412a68e71
-[18:53:58] [Server thread/INFO]: Larintb868[/[0:0:0:0:0:0:0:1%0]:37254] logged in with entity id 217 at (197.30000001192093, 63.0, -247.63757173590693)
-[18:53:58] [Server thread/INFO]: Larintb868 joined the game
-[18:55:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[18:55:58] [Server thread/INFO]: heal larintb868<--[HERE]
-[18:56:09] [Server thread/INFO]: Made Larintb868 a server operator
-[18:56:29] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:31] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:32] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:32] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:32] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:33] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:33] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:35] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:36] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:36] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:37] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:37] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:37] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:38] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:39] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:40] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:40] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:41] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:41] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:41] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:42] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:42] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:43] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:43] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:43] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:44] [Server thread/INFO]: [Larintb868: Gave 1000000000 experience points to Larintb868]
-[18:56:52] [Server thread/INFO]: [Larintb868: Gave 999999999 experience points to Larintb868]
-[18:56:55] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:56] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:56] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:57] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:57] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:58] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:58] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:59] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:56:59] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:57:00] [Server thread/INFO]: [Larintb868: Gave 999999999 experience levels to Larintb868]
-[18:57:26] [Server thread/INFO]: Larintb868 hit the ground too hard
-[18:57:56] [Server thread/INFO]: Larintb868 lost connection: Disconnected
-[18:57:56] [Server thread/INFO]: Larintb868 left the game
-[19:05:45] [Server thread/INFO]: Stopping the server
-[19:05:45] [Server thread/INFO]: Stopping server
-[19:05:45] [Server thread/INFO]: Saving players
-[19:05:45] [Server thread/INFO]: Saving worlds
-[19:05:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:05:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:05:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:05:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:15:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mc/minecraft_server_fabric/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:15:57] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:16:02] [main/INFO]: [STDOUT]: Loading Collective (Fabric) version 5.50.
+[19:16:02] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[19:16:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:16:04] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:16:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:16:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:16:04] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:16:04] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:16:04] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[19:16:05] [Worker-Main-5/INFO]: Loaded 7 recipes
+[19:16:05] [Worker-Main-5/INFO]: Loaded 927 advancements
+[19:16:07] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 6.930 ms
+[19:16:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[19:16:07] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:16:07] [Server thread/INFO]: Loading properties
+[19:16:07] [Server thread/INFO]: Default game type: SURVIVAL
+[19:16:07] [Server thread/INFO]: Generating keypair
+[19:16:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:16:08] [Server thread/INFO]: Using epoll channel type
+[19:16:08] [Server thread/INFO]: Preparing level "world"
+[19:16:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:16:09] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:09] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:09] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:09] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:10] [Server thread/INFO]: Preparing spawn area: 20%
+[19:16:10] [Server thread/INFO]: Time elapsed: 2508 ms
+[19:16:10] [Server thread/INFO]: Done (2.667s)! For help, type "help"
+[19:16:11] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[19:16:15] [User Authenticator #1/INFO]: UUID of player Larintb868 is 9815b6cc-9a42-4d3a-a564-2c7412a68e71
+[19:16:15] [Server thread/INFO]: Larintb868[/[0:0:0:0:0:0:0:1%0]:33548] logged in with entity id 211 at (212.40969368847362, 70.0, -247.9733063064138)
+[19:16:15] [Server thread/INFO]: Larintb868 joined the game
+[19:16:19] [Server thread/INFO]: Larintb868 lost connection: Disconnected
+[19:16:19] [Server thread/INFO]: Larintb868 left the game
+[19:18:10] [Server thread/INFO]: Stopping the server
+[19:18:10] [Server thread/INFO]: Stopping server
+[19:18:10] [Server thread/INFO]: Saving players
+[19:18:10] [Server thread/INFO]: Saving worlds
+[19:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
