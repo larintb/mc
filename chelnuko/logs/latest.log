@@ -1,0 +1,27 @@
+[06:42:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:42:51] [ServerMain/INFO]: Loaded 1407 recipes
+[06:42:51] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[06:42:51] [Server thread/INFO]: Loading properties
+[06:42:51] [Server thread/INFO]: This server is running CraftBukkit version 4519-Spigot-6e79c50-0918b74 (MC: 1.21.7) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[06:42:52] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[06:42:52] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[06:42:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:42:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:42:52] [Server thread/INFO]: Debug logging is disabled
+[06:42:52] [Server thread/INFO]: Default game type: SURVIVAL
+[06:42:52] [Server thread/INFO]: Generating keypair
+[06:42:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:42:52] [Server thread/INFO]: Using epoll channel type
+[06:42:52] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[06:42:52] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[06:42:52] [Server thread/WARN]: Perhaps a server is already running on that port?
+[06:42:52] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1010) ~[spigot-1.21.7.jar:4519-Spigot-6e79c50-0918b74]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7.jar:4519-Spigot-6e79c50-0918b74]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:42:52] [Server thread/ERROR]: This crash report has been saved to: /workspaces/mc/chelnuko/crash-reports/crash-2025-07-01_06.42.52-server.txt
+[06:42:52] [Server thread/INFO]: Stopping server
+[06:42:52] [Server thread/INFO]: Saving players
+[06:42:52] [Server thread/INFO]: Saving worlds
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
